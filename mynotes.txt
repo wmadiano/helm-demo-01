@@ -1,2 +1,16 @@
 #1 create helm
-helm create firt-chart
+helm create first-chart
+
+#2 install deploy the chart
+helm install first-chart .
+
+#3 get config map
+kubectl get cm
+
+#4 upgrade
+helm upgrade first-chart
+
+#5 encode secret to base64 string
+
+#6 check if helm is tracking changes
+helm template first-char .
