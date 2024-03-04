@@ -1,0 +1,2 @@
+#1 create helm
+helm create firt-chart
